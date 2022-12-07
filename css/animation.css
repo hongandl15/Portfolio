@@ -88,6 +88,15 @@ section .text-container .skill-box {
   height: 120px;
 }
 
+section .text-container .skill-box div {
+  width: 100px; 
+  text-align: center;
+}
+
+section .text-container .skill-box div img {
+  width: 70px
+}
+
 section .text-container .text-box h3 {
   font-size: 30px;
   text-align: center;
@@ -379,10 +388,14 @@ section .text-container .text-box button:hover::before {
     height: 120px;
   }
 
-  .contact-social-media div {
+  .contact-social-media div{
     display: flex;
     text-align: left center;
     justify-content: center;
+  }
+
+  .contact-social-media a{
+    padding-top: 10px;
   }
 
   .contact{

@@ -338,9 +338,13 @@ body, html {
     padding: 2px;
   }
 
-  .contact-social-media a{
+  .contact-social-media :nth-child(1){
+    padding: 3px;
+  }
+
+  .contact-social-media :nth-child(2){
     font-size: 20px;
-    padding: 2px;
+    padding-top: 10px;
     color:white;
     text-decoration: none;
     display: block;
