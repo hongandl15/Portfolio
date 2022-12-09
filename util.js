@@ -22,7 +22,7 @@ function Myfunction(){
         //************************************************************************************ ************************************************************************************* *
         pass == 
         "hongandl15"){
-        window.location.href = "home.html";
+        window.location = './home.html';
     }
     else document.getElementById("test").innerHTML = "Wrong user name or password";
 }
