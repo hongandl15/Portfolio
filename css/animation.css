@@ -33,7 +33,6 @@ section:nth-child(3) {
 
 }
 
-
 section:nth-child(4) {
   color: #e0dada;
 }
@@ -396,7 +395,7 @@ section .text-container .text-box button:hover::before {
   }
 
   .contact{
-    max-width: 420px
+    max-width: 420px;
   }
 
   body, html {
